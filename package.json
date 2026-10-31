@@ -1,0 +1,24 @@
+{
+  "name": "roadguard-tn",
+  "version": "2.4.0",
+  "description": "AI-Powered Statewide Predictive Road Safety and Traffic Intervention Management System for Tamil Nadu",
+  "scripts": {
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "backend:start": "backend\\.venv\\Scripts\\python.exe -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload"
+  },
+  "keywords": [
+    "road-safety",
+    "tamil-nadu",
+    "ai",
+    "xgboost",
+    "shap",
+    "yolo",
+    "sumo",
+    "fastapi",
+    "react"
+  ],
+  "author": "Government of Tamil Nadu - Road Safety Commission",
+  "license": "Proprietary"
+}
+
